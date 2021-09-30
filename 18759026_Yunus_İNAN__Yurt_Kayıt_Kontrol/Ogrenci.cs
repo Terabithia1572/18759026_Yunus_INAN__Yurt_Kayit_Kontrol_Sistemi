@@ -82,11 +82,11 @@ namespace _18759026_Yunus_İNAN__Yurt_Kayıt_Kontrol
                 MessageBox.Show("TcNo Boş Bırakılamaz");
                 return;
             }
-            if (tx_tcNo.Text.Length != 11)
-            {
-                MessageBox.Show("TcNo 11 karakter olmalıdır.");
-                return;
-            }
+            //if (tx_tcNo.Text.Length != 11)
+            //{
+            //    MessageBox.Show("TcNo 11 karakter olmalıdır.");
+            //    return;
+            //}
             if (tx_ad.Text == "" || tx_soyad.Text == "")
             {
                 MessageBox.Show("Ad Soyad Boş Bırakılamaz");
